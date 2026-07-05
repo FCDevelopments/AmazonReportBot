@@ -1,2 +1,4 @@
-playwright>=1.45
-pypdf>=4.0
+# Pinned for reproducible installs. Bump deliberately after testing.
+# After changing playwright, re-run: python -m playwright install
+playwright==1.48.0
+pypdf==5.1.0
